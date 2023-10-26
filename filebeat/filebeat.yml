@@ -26,7 +26,7 @@ filebeat.prospectors:
   # Paths that should be crawled and fetched. Glob based paths.
   paths:
   # Can ship all .log files in the standard path below, or specify only pihole.log instead
-    - /var/log/*.log
+    - /var/log/pihole/pihole.log
     #- c:\programdata\elasticsearch\logs\*
 
   # Exclude lines. A list of regular expressions to match. It drops the lines that are
